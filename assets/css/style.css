@@ -1,0 +1,65 @@
+* {
+     box-sizing: border-box;
+     margin: 0;
+     padding: 0;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;;
+    background-color: #1E2D3B;
+}
+
+header {
+    background-color: #2E3A46;
+}
+
+#logo {
+    height: 50px;
+    width:50px;
+    margin: 10px;
+}
+
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.album{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    margin: 10px;
+    background-color: #2E3A46;
+    width: 200px;
+
+}
+
+.poster, .title{
+    padding: 10px;
+}
+
+.author {
+    padding-top: 10px;
+}
+
+h1 {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+
+p {
+    font-size: 15px;
+    font-weight: lighter;
+    color:#808078;
+    text-align: center;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+}
